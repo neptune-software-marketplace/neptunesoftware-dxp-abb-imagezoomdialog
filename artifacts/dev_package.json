@@ -1,0 +1,47 @@
+{
+	"id": "CFC3B279-FA0B-ED11-B47A-000D3AB2359F",
+	"createdAt": "2022-07-25T09:16:34.000Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-imagezoomdialog",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-imagezoomdialog",
+	"description": null,
+	"ver": "22.7.25.917",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "189DEB3B-ACC5-4DDA-803B-F9FB56A04157",
+			"ver": "22.7.25.1116",
+			"application": "image_zoom_dialog",
+			"title": "UTIL",
+			"description": "Image Zoom into Dialog"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
