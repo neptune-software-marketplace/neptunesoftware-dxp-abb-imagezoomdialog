@@ -1,0 +1,319 @@
+{
+	"id": "189deb3b-acc5-4dda-803b-f9fb56a04157",
+	"createdAt": "2022-02-04T15:47:02.656Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "02d27f19-a63d-4325-ea94-655fde3495f6",
+			"fieldName": "oBarCustomHeader",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Bar",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "position",
+					"grouping": "Parent",
+					"value": "setCustomHeader",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "28c73408-0973-43f5-c48b-960e1a9166e6",
+					"fieldName": "Middle",
+					"fieldParent": "02d27f19-a63d-4325-ea94-655fde3495f6",
+					"fieldType": "neptune.BarContent",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "position",
+							"grouping": "Parent",
+							"value": "ContentMiddle",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "cbccd43d-ec8b-44ae-c2ed-323eee0b164e",
+							"fieldName": "oZoomOpen",
+							"fieldParent": "28c73408-0973-43f5-c48b-960e1a9166e6",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Open",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/oZoomOpen/press.script",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": "ee487b32-0406-4473-ed3a-0105e1e7b62e",
+			"fieldName": "oDialogImageZoom",
+			"fieldParent": 0,
+			"fieldType": "sap.m.Dialog",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "enableCompactMode",
+					"grouping": "Properties",
+					"value": "true",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "375f2ec8-75a9-4a3f-f86f-a5074c7d8eed",
+					"fieldName": "omyImage",
+					"fieldParent": "ee487b32-0406-4473-ed3a-0105e1e7b62e",
+					"fieldType": "sap.m.Image",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "src",
+							"grouping": "Properties",
+							"value": "/media/root/AI_logo.png",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "3f04753d-5129-4d64-c2d5-789894b346d4",
+					"fieldName": "oHBox",
+					"fieldParent": "ee487b32-0406-4473-ed3a-0105e1e7b62e",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiSmallMargin",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "renderType",
+							"grouping": "Properties",
+							"value": "Bare",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "justifyContent",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "6098d4e4-cf6b-4447-e1ea-535935bcd022",
+							"fieldName": "oHTMLObject",
+							"fieldParent": "3f04753d-5129-4d64-c2d5-789894b346d4",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "7dea0e9c-330d-4280-a86c-1b575c9435e9",
+									"fieldName": "oHTML",
+									"fieldParent": "6098d4e4-cf6b-4447-e1ea-535935bcd022",
+									"fieldType": "neptune.Html",
+									"script": "file://script/neptune.Html/oHTML.script",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "3bf334c6-2ed5-4b9c-aeab-a56e2a9101a2",
+					"fieldName": "oHBox1",
+					"fieldParent": "ee487b32-0406-4473-ed3a-0105e1e7b62e",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "justifyContent",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "cdb22d82-1345-4af3-c477-ec242deea45c",
+							"fieldName": "oZoomClose",
+							"fieldParent": "3bf334c6-2ed5-4b9c-aeab-a56e2a9101a2",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Emphasized",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Close",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://decline",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "oDialogImageZoom.close();",
+									"script": "oDialogImageZoom.close();",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "94f249be-a1f9-4758-f03e-d86c23c4dcfd",
+					"fieldName": "README",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/README.script",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "ff1d692c-d98b-4892-ab48-121ba57a59f1",
+					"fieldName": "oJavascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/oJavascript.script",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "22.12.9.1046",
+	"application": "image_zoom_dialog",
+	"title": "UTIL",
+	"description": "Image Zoom into Dialog",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "1.71",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"apis": [],
+	"package": "cfc3b279-fa0b-ed11-b47a-000d3ab2359f"
+}
