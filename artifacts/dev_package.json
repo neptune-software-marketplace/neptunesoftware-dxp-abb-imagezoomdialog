@@ -9,8 +9,11 @@
 	},
 	"name": "neptunesoftware-dxp-abb-imagezoomdialog",
 	"description": null,
-	"ver": "22.7.25.917",
+	"ver": "24.10.17.1009",
 	"enableCICD": true,
+	"internalReadOnly": false,
+	"excludeTemplateFiles": false,
+	"roles": [],
 	"apps": [
 		{
 			"id": "189deb3b-acc5-4dda-803b-f9fb56a04157",
@@ -32,8 +35,11 @@
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [],
+	"tile_layout": [],
 	"category": [],
+	"tilegroup_layout": [],
 	"launchpad": [],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -43,5 +49,9 @@
 	"script_scheduler": [],
 	"wf_definition": [],
 	"connector": [],
-	"events": []
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": []
 }

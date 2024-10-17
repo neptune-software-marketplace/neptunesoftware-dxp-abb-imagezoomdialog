@@ -62,7 +62,7 @@
 									"attribute": "press",
 									"grouping": "Events",
 									"value": "Anonymous Function",
-									"script": "file://event/sap.m.Button/oZoomOpen/press.script",
+									"script": "file://event/sap.m.Button/oZoomOpen/press.js",
 									"language": "javascript",
 									"translation": []
 								}
@@ -112,7 +112,7 @@
 						{
 							"attribute": "src",
 							"grouping": "Properties",
-							"value": "/media/root/AI_logo.png",
+							"value": "/media/root/ImageZoom/AI_logo.png",
 							"script": "",
 							"translation": []
 						}
@@ -251,7 +251,7 @@
 					"fieldName": "README",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/README.script",
+					"script": "file://script/neptune.Script/README.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -263,7 +263,7 @@
 					"fieldName": "oJavascript",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/oJavascript.script",
+					"script": "file://script/neptune.Script/oJavascript.js",
 					"customComponent": false,
 					"request": [],
 					"response": [],
@@ -278,7 +278,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "22.12.9.1046",
+	"ver": "24.10.17.1006",
 	"application": "image_zoom_dialog",
 	"title": "UTIL",
 	"description": "Image Zoom into Dialog",
@@ -303,6 +303,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": "",
@@ -314,6 +315,10 @@
 	"ui5_ionic": false,
 	"useV2AppHandler": false,
 	"compilerTarget": 3,
-	"apis": [],
-	"package": "cfc3b279-fa0b-ed11-b47a-000d3ab2359f"
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "cfc3b279-fa0b-ed11-b47a-000d3ab2359f",
+	"apis": []
 }
